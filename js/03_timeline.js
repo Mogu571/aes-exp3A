@@ -154,8 +154,8 @@ function buildTimeline() {
             }
         }; */
 
-        // 将当前试次的4个子环节加入时间线
-        timeline.push(fixationTrial, blankTrial, imageTrial, beautyRatingTrial);
+        // 将当前试次的5个子环节加入时间线
+        timeline.push(fixationTrial, blankTrial, imageTrial, imageWaitTrial, beautyRatingTrial);
     }
 
     // -------------------------- 环节4：实验结束页（数据下载） --------------------------
