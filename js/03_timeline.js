@@ -66,7 +66,7 @@ function buildTimeline() {
     timeline.push(startExperimentTransition);
 
 
-    // -------------------------- 环节3：100个实验试次（循环生成） --------------------------
+    // -------------------------- 环节3：60个实验试次（循环生成） --------------------------
     for (let i = 0; i < IMAGE_LIST.length; i++) {
         const currentImage = IMAGE_LIST[i];
 
